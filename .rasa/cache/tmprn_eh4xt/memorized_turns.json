@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JbGotjYWAAXQG+4=": "utter_saudar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JbGoloAhpSUlqUXxULU4zYgFAOYmNdI=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUls6i2NhYAPmwcvg==": "utter_despedir",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUls6iWgDGlJSWpRfFw1XjMiQUANbY4Qg==": "action_listen",
+    "eJydjkEKwCAMBL/iA/oCv1JKSG0oQptIjL2If69Q70JvOzAMu9a2uJqUHsBgUdi7+g1gvMm7AVfMRtzdkkm7E7mjeZexHKhtEilmpDDcn43JkUR6FjZU6I0goLKLxYCtbS/duleR": "utter_responder_preco_robotica",
+    "eJydjksKgDAMRK/SA3iCXkUkxBqkoElJUzfFu1vQnQs/uwy8eZm+7p2rSWkDDBaFvavnAYwreXeFJWYjbmzJpI2J3KJ5l7FMqPuDpJiRwsX+dDwMSaRzYUOF5ggCKqNYDPhumlJOwhPd2h/+DAe1W4Bz": "action_listen"
+  }
+}

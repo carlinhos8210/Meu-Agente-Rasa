@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+- intent: saudar
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - tudo bem?
+    - eae
+
+- intent: despedir
+  examples: |
+    - tchau
+    - até logo
+    - adeus
+    - até mais
+    - obrigado, era só isso
+
+- intent: perguntar_preco_robotica
+  examples: |
+    - quanto custa o curso de robotica?
+    - qual o valor da mensalidade?
+    - qual o preço
+    - me fala o preço do curso de robotica
+    - preço
+
+- intent: afirmar
+  examples: |
+    - sim
+    - claro
+    - com certeza
+    - isso mesmo
+    - s

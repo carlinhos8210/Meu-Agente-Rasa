@@ -1,0 +1,30 @@
+version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+# 1. Liste as intenções que você acabou de criar no nlu.yml
+intents:
+  - saudar
+  - despedir
+  - perguntar_preco_robotica
+  - afirmar
+
+# 2. Escreva as respostas que o bot pode dar
+responses:
+  utter_saudar:
+  - text: "Olá! 👋 Eu sou o assistente virtual da My Robot. Como posso te ajudar hoje?"
+
+  utter_despedir:
+  - text: "Até logo! Qualquer coisa, é só chamar."
+
+  utter_responder_preco_robotica:
+  - text: "Nossos planos para o curso de robótica são fantásticos! Para eu te passar o valor exato, você gostaria de falar com um de nossos consultores?"
+
+  utter_fallback_padrao:
+  - text: "Desculpe, eu ainda estou aprendendo e não entendi o que você disse. Pode tentar de outra forma?"
+
+# 3. Defina a ação de fallback (o que ele faz quando NÃO entende)
+# Agora, em vez de "Bye", ele vai usar a resposta acima.
+actions:
+- utter_fallback_padrao

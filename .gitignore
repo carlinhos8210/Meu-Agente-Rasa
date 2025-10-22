@@ -1,0 +1,9 @@
+# Ignora o ambiente virtual (que contém arquivos gigantes)
+venv/
+
+# Ignora os modelos treinados (o Render vai treinar o dele)
+models/
+
+# Ignora caches do Python
+__pycache__/
+*.pyc

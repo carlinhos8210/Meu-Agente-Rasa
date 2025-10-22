@@ -1,0 +1,19 @@
+version: "3.1"
+
+stories:
+- story: Caminho feliz saudação
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+
+- story: Caminho feliz despedida
+  steps:
+  - intent: despedir
+  - action: utter_despedir
+
+- story: Caminho de consulta de preço
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: perguntar_preco_robotica
+  - action: utter_responder_preco_robotica
